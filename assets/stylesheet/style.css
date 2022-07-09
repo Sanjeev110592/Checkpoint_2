@@ -1,0 +1,410 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom styles */
+
+/* Header */
+
+.container{
+	padding: 0 100px;
+	padding-top: 100px;
+
+}
+
+.home{
+	background: url("../media/background.jpg");
+	background-size: cover;
+	height: 700px;
+}
+.header-nav{
+	text-align: center;
+	padding: 30px 0;
+	word-spacing: 5px;
+}
+.header-nav a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: white;
+	color: rgb(29, 22, 22);
+	line-height: 30px;
+}
+.search-nav{
+	width: 80%;
+	background-color: white;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+.search-nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-right: 20px;
+	line-height: 100px;
+}
+#orange{
+	display: inline-block;
+	color: orange;
+	border-top: 2px solid orange;
+}
+.gradient img{
+	height: 100px;
+	width:100px;
+}
+.bottom-box{
+	margin: auto;
+	margin-top: 200px;
+	width: 370px;
+	color: white;
+}
+.bottom-box h2{
+	font-size: 36px;
+}
+.bottom-box p{
+	margin-top: 20px;
+	text-align: center;
+}
+.bottom-box a{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 90px;
+}
+.slider{
+	text-align: center;
+
+}
+.slider span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(161, 149, 149);
+	border-radius: 50%;
+	margin-top: 5px;
+}
+#dark{
+	background-color: black;
+}
+
+/* Our Services */
+
+.text{
+	text-align: center;
+}
+.text h3{
+	font-size: 24px;
+}
+.text hr{
+	width: 165px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.boxes{
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 50px;
+}
+.boxes div{
+	width: 200px;
+	height: 220px;
+}
+.box1{
+	background-color: teal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+}
+.box2{
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+}
+.box3{
+	background-color: rgb(12, 157, 214);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+}
+.box4{
+	background-color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+}
+
+/* Portfolio */
+
+.portfolio{
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 50px;
+	flex-wrap: wrap;
+}
+.portfolio img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.prtf hr{
+	width: 185px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+/* Our Team */
+
+.team hr{
+	width: 125px;
+	margin-top: 0;
+	margin-bottom: 20px;	
+}
+.team img{
+	border-radius: 50%;
+}
+
+/* Design skill */
+
+.design{
+	text-align: center;
+}
+.design h4{
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.article{
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 40px;
+}
+.left{
+	width: 60%;
+	/* height: 200px; */
+	text-align: left;
+}
+.graph{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 35%;
+	/* height: 200px; */
+}
+.left p{
+	margin-bottom: 20px;
+}
+.graph div{
+	width: 90%;
+	background-color: aliceblue;
+}
+.graph1 div{
+	width: 90%;
+	padding: 10px 0;
+	background-color: orange;
+}
+.graph2 div{
+	width: 80%;
+	padding: 10px 0;
+	background-color: orange;
+}
+.graph3 div{
+	width: 70%;
+	padding: 10px 0;
+	background-color: orange;
+}
+.graph4 div{
+	width: 80%;
+	padding: 10px 0;
+	background-color: orange;
+}
+
+/* Contact */
+
+.contact hr{
+	width: 110px;
+}
+.map{
+	display: flex;
+	justify-content: center;
+}
+.map img{
+	width: 880px;
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.intro{
+	border: 1px solid black;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+.message{
+	padding: 40px;
+}
+.btn{
+	text-align: center;
+	padding: 15px 0;
+	background-color: orange;
+}
+.bottom{
+	width: 880px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.bottom a{
+	width: 120px;
+	display: inline-block;
+	padding: 15px 15px;
+	background-color: orange;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.bottom p{
+	word-spacing: 5px;
+}
+
+/* Gallery */
+
+.gallery{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 100px;
+}
+
+.fixed{
+	width: 25%;
+	height: 100vh;
+	background-color: orange;
+	position: fixed;
+}
+
+.static{
+	width: 70%;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-wrap: wrap;
+	box-shadow: 5px 0px 5px 2px aliceblue;
+}
+.static div{
+	width: 45%;
+	margin: 30px 0;
+}
+.static img{
+	width: 100%;
+	height: 400px;
+}
+.fixed{
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+}
+#search{
+	width: 42px;
+	height: 42px;
+	/* margin-top: 10px; */
+}
+.fixed span{
+	display: inline-block;
+	font-size: 42px;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.gfl{
+	display: flex;
+	justify-content: space-between;
+}
+.gfl a{
+	display: inline-block;
+	padding: 10px 10px;
+	border: 1px solid white;
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+}
+.down{
+	margin-top: 70vh;
+}
+.down h2{
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.down p{
+	text-align: left;
+}
+
