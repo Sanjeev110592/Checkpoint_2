@@ -1,0 +1,51 @@
+/* Custom styles */
+
+body{
+    max-width: 1450px;
+    margin: auto;
+}
+.nav{
+    padding: 20px 150px;
+    background-color: orange;
+} 
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav li{
+    margin-right: 10px;
+}
+.black{
+    background-color: black;
+}
+main{
+    background-color: burlywood;
+    /* height: 500px; */
+    margin-top: -16px;
+    padding: 50px 185px;
+}
+.ordered_list{
+    display: flex;
+    justify-content: space-between;
+}
+.ordered_list div{
+    width: 30%;
+    height: 450px;
+    background-color: midnightblue;
+    color: white;
+    padding: 30px 0;
+}
+.ordered_list li{
+    margin-top: 10px;
+}
+dt{
+    font-size: 24px;
+}
+dd{
+    margin-top: 20px;
+}
